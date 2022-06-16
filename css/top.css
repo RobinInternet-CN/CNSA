@@ -1,0 +1,128 @@
+
+body, div, span, ul, li {
+    margin: 0;
+    border: 0;
+
+}
+
+#links a, li, p {
+    font-family: "Source Code Pro", "Sarasa Term SC", "微软雅黑";
+    font-size: 24px;
+
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar {
+    width: 100%;
+    height: 50px;
+    /*background: rgba(00, 00, 00, 0.2);*/
+    background: transparent;
+    min-width: 1200px;
+    position: fixed;
+    line-height: 40px;
+    z-index: 30;
+}
+
+#navbar_bg {
+    background: black;
+    opacity: 0.9;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 5;
+    backdrop-filter: 3px;
+}
+
+#navbar #logo {
+    font-family: "Source Code Pro", "Sarasa Term SC", "微软雅黑";
+    font-size: 32px;
+    letter-spacing: 120%;
+    color: white;
+    font-weight: 300;
+    line-height: 50px;
+    padding-left: 200px;
+    float: left;
+    margin-top: 15px;
+}
+
+#links {
+    float: right;
+    margin-right: 20px;
+}
+
+.erji {
+    float: left;
+    padding-left: 10px;
+    line-height: 75px;
+}
+
+.erji a {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    width: 100px;
+    border-bottom: transparent 0px solid;
+    text-align: center;
+}
+
+.erji a:hover {
+    background: rgba(255, 255, 255, 0.6);
+    transition: background-color 1500ms linear;
+    color: #1b6d85;
+    transition: color 1500ms linear;
+    font-weight: 600;
+    transition: font-weight 400ms linear;
+    font-size: 25px;
+    transition: font-size 400ms linear;
+    border-bottom: white solid 6px;
+    transition: border-bottom-color 400ms linear;
+}
+
+.icon {
+    float: right;
+}
+
+.icon a {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    display: block;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: background linear 0.3s;
+}
+
+.icon a:hover {
+    background-size: 60px 60px;
+    transition: background linear 0.3s;
+}
+
+#search a {
+    background-size: 60px 60px;
+    transition: background linear 0.3s;
+}
+
+#search a,#e-mail a {
+    background: url("../images/sousuo.png") center no-repeat;
+    background-size: 25px 25px;
+}
+
+#e-mail a {
+    background: url("../images/youjian.png") center no-repeat;
+    background-size: 25px 25px;
+}
+
+#abouti a {
+    background: url("../images/guanyu.png") center no-repeat;
+    background-size: 30px 30px;
+
+}
+#top {
+    width: 100%;
+    margin: 0 auto;
+}

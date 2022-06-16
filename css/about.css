@@ -1,0 +1,288 @@
+#about {
+    margin: 50px auto;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0 auto
+}
+
+#about .company {
+    height: 340px
+
+}
+
+dl,
+ol,
+ul,
+li {
+    list-style: none
+}
+
+#about .company li {
+    float: left;
+    margin-right: 64px
+
+}
+
+about li {
+    float: left
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: ""
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    line-height: 0;
+    content: ""
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent
+}
+
+ul {
+    list-style-type: disc
+}
+
+#about .company li h2 {
+    font-size: 18px;
+    display: inline-block
+}
+
+#about .company li > span {
+    color: rgb(172, 172, 172);
+    font-size: 12px;
+    font-family: 宋体;
+    display: inline-block;
+    margin-left: 12px;
+    padding-left: 5px;
+    border-left: 2px solid rgb(172, 172, 172)
+}
+
+#about .company li .main {
+    margin-top: 11px;
+    height: 304px
+}
+
+#about .company li .main .aside {
+    width: 86px;
+    height: 299px;
+    background: #ededed;
+    padding-top: 5px
+}
+
+.fl {
+    float: left;
+}
+
+.shangshi_a ,.details fll {
+    font-size: 16px;
+    margin-left: 23px;
+    color: #333;
+    font-size: 12px;
+    font-family: Microsoft YaHei,Arial,Verdana,Helvetica,sans-serif;
+
+}
+
+#about .company li .main .aside li.num1 {
+    border-left: 5px solid #e75959;
+    background: #f7f7f7
+}
+
+#about .company li .main .aside li:hover {
+    border-left: 5px solid #e75959;
+    background: #f7f7f7
+}
+
+#about .company li .main .aside li {
+    height: 32px;
+    width: 81px;
+    line-height: 32px;
+    text-align: center;
+    border-left: 5px solid #ededed;
+    margin-top: 5px
+}
+
+#about .company li {
+    float: left;
+    margin-right: 0px
+}
+
+#about .company li .main .details {
+    width: 440px;
+    height: 274px;
+    background: #f7f7f7;
+    padding-top: 30px;
+    text-align: center
+}
+
+
+#about .company li .main .details > img {
+    display: inline-block;
+    margin: 0 10px 0 10px
+}
+
+img {
+    border: none;
+    display: block;
+    vertical-align: top
+}
+
+#about .company li .main .details .shangshi_b {
+    margin: 15px 43px 0 43px;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 2em;
+    font-size: 12px;
+}
+
+#about .company li .main .details .shangshi_a .img_lg {
+    width: 188px;
+    height: 55px;
+    margin-top: 49px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+#about .company li .main .details .shangshi_a {
+    background: #fff;
+    width: 394px;
+    height: 132px;
+    margin: 0 auto;
+
+}
+
+#about .company li .main .details .shangshi_a p {
+    text-align: left;
+    font-size: 12px;
+}
+
+#about .company li .main .details .shangshi_b a {
+    color: #eb7b7b
+
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    blr: expression(this.onFocus=this.blur())
+}
+
+#about .company li .main .aside li a {
+    font-size: 14px;
+    color: #333
+}
+
+#about .company li .main .details .shangshi_a .gupiao .name_c {
+    color: #333;
+    font-size: 12px;
+    line-height: 0;
+    font-family: Microsoft YaHei, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#about .company li .main .details .shangshi_a .gupiao {
+    float: left;
+    width: 160px;
+    height: 104px;
+    padding-left: 17px;
+    margin-top: 15px;
+    border-right: 1px solid #efefef;
+    text-align: left;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#about .company li .main .details .shangshi_a .gupiao p.name_c {
+    font-size: 14px;
+}
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+.shangshi {
+    margin-left: 148px;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+#about .company li .main .details > p {
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 12px;
+    color: #575757;
+    width: 385px;
+    line-height: 2em;
+    text-indent: 2em
+}

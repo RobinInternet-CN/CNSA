@@ -1,0 +1,161 @@
+#main {
+    width: 100%;
+    height: 5000px; /*记得删除*/
+    margin: 0 auto;
+    clear: both;
+    background: url("../images/bg.jpg") no-repeat white top center;
+    background-size: 100% 100%;
+}
+
+#zhuanti {
+    width: 1200px;
+    margin: 0 auto;
+    height: 512px;
+    background: white;
+    /*border: #cccccc 10px solid;*/
+}
+
+#vedio {
+    width: 1200px;
+    height: auto;
+    clear: both;
+    position: absolute;
+    z-index: 1;
+}
+
+#zhuanti .ved {
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+
+}
+
+#zhuanti a:hover div {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#zhuanti a div {
+    display: block;
+}
+
+#bg {
+    background: black;
+    width: 1200px;
+    height: 515px;
+    position: absolute;
+    float: right;
+    opacity: 0;
+    z-index: 3;
+}
+
+#zhuanti #text {
+    float: right;
+    position: absolute;
+    z-index: 4;
+    width: 800px;
+    height: 100px;
+    margin: 160px 0px 0px 200px;
+    opacity: 0.85;
+}
+
+#zhuanti #text h2 {
+    font-family: 微软雅黑;
+    font-size: 98px;
+    letter-spacing: 10px;
+    color: white;
+    opacity: 0;
+    display: inline-block;
+}
+
+#zhuanti #text p {
+    color: #eeeeee;
+    opacity: 0;
+}
+
+#zhuanti:hover #text h2, #zhuanti:hover #text p, #zhuanti:hover #bg {
+    opacity: 1;
+    transition: opacity 300ms linear;
+
+}
+
+#zhuanti:hover #bg {
+    opacity: 0.6;
+    transform: scale(1);
+}
+.miaoshu{
+    font-family: 微软雅黑;
+    font-size: 35px;
+    color: #CCCCCC;
+    text-align: left;
+    letter-spacing: 12px;
+    padding-left: 20px;
+}
+
+#zt424{
+    clear: both;
+    margin: 50px auto;
+    width: 1200px;
+    height: auto;
+
+}
+#zt424> img{
+    width: 1200px;
+    height: auto;
+}
+
+#banner {
+    width: 100%;
+    height: 1350px;
+    z-index: 10;
+    border: 0;
+    padding: 0;
+    max-resolution: 0;
+    position: relative;
+}
+
+.tab{
+    width:1200px;
+    height:45px;
+    /*border:1px solid #ccc;*/
+    border-bottom:1px solid #00002a;
+    background: #fafafa;
+    position:relative;
+    margin:100px auto;
+}
+.tab_list li{
+    width:160px;
+    height:45px;
+    list-style:none;
+    line-height:45px;
+    text-align: center;
+    float:left;
+}
+.tab_list .current{
+    background-color:#00002a;
+    color:#fff;
+}
+.item{
+    width:1200px;
+    height: 200px;
+    padding-top:40px;
+    /*line-height:200px;*/
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+    text-shadow:2px 2px 4px #000000;
+    background: #efefef;
+    /*opacity: 0.8;*/
+    top:47px;
+    position:absolute;
+}
+#cut{
+    width: 1200px;
+    height: 100px;
+    margin: 10px auto;
+    background: url("../images/cut.png") whitesmoke no-repeat center;
+    background-size: 1200px 200px;
+    border-radius: 10px;
+}

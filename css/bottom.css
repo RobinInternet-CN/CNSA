@@ -1,0 +1,14 @@
+#bottom {
+    width: 100%;
+    margin: 0 auto;
+    background: #00002a;
+    height: 320px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 15px;
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 30px;
+}
